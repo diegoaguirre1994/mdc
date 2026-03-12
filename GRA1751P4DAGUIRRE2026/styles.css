@@ -1,0 +1,94 @@
+@charset "UTF-8";
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #ccc;
+}
+wrapper {
+    width: 1366px;
+    margin: 0 auto;
+    display: block;
+    background-color: #fff;
+}
+header {
+    height: 150px;
+    background-color: #999;
+}
+footer {
+    padding: 16px;
+    font-size: 12px;
+}
+nav {
+    background-color: rgba(0,0,0,0.50);
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+ul a li {
+    padding: 10px;
+    display: inline-block;
+}
+nav ul a {
+    color: rgba(255,255,255,1.00);
+    text-decoration: none;
+}
+ul a li:hover {
+    background-color: rgba(0,0,0,1.00);
+}
+main {
+    height: 1000px;
+    background-size: cover;
+    background-position: center 0%;
+}
+#home {
+    background-image: url(IMAGES/home.jpg);
+}
+#news {
+    background-image: url(IMAGES/ry%20x%201.jpg);
+    background-size: cover;
+}
+#store {
+    background-image: url(IMAGES/MYP-Magazine-24-Interview-RY-X-10.jpg);
+    background-size: auto auto;
+}
+#videos {
+    background-image: url(IMAGES/maxresdefault2.jpg);
+    background-size: cover;
+}
+#concerts {
+    background-image: url(IMAGES/maxresdefault.jpg);
+    background-size: cover;
+}
+#photos {
+    background-image: url(IMAGES/MYP-Magazine-24-Interview-RY-X-07.jpg);
+    background-size: cover;
+}
+#mailings {
+    background-image: url(IMAGES/maxresdefault3.jpg);
+    background-size: cover;
+}
+#merch {
+    background-image: url(IMAGES/RY-X-T-Back.png);
+    background-size: cover;
+}
+#blogs {
+    background-image: url(IMAGES/F8kGuM9XAAAwtFW.jpg);
+    background-size: cover;
+}
+#privacy {
+    background-image: url(IMAGES/RY-X-1-_0.jpg);
+    background-size: cover;
+}
+h1 {
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    font-size: 120px;
+}
+h2 {
+    padding: 20px;
+    margin: 0;
+    font-size: 35px;
+}
